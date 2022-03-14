@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Light and Sound game</title>
 </head>
 <body>
@@ -12,17 +13,17 @@
         <div class="component">
             <div class="instruction margin-left">
                 <h1>Light and Sound Memory game</h1>
-                <p>Repeat the pattern back to win the game</p>
+                <p>Welcome to the game, repeat back the pattern by pressing the buttons</p>
             </div>
             <div class="start-button margin-left">
-                <input type="submit" value="Start"id="start">
-                <input type="submit" value="Stop" id="stop">
+                <input type="submit" value="Start" id="startBtn" onclick="startGame()">
+                <input type="submit" value="Stop"  id="stopBtn" class="hidden" onclick="stopGame()">
             </div>
             <div class="beat-buttons">
-                <div class="beat-button" id="btn1"></div>
-                <div class="beat-button" id="btn2"></div>
-                <div class="beat-button" id="btn3"></div>
-                <div class="beat-button" id="btn4"></div>
+                <div class="beat-button" id="btn1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></div>
+                <div class="beat-button" id="btn2" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></div>
+                <div class="beat-button" id="btn3" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></div>
+                <div class="beat-button" id="btn4" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></div>
             </div>
         </div>
         <p id="author">Design with ❤ by <a href="https://github.com/Nakamcode" target="_blank">Nakam</a></p>

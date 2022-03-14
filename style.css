@@ -35,12 +35,15 @@ main{
     border: 1px solid #000;
     cursor: pointer;
 }
-.start-button #start{
+.start-button #startBtn{
     background-color: #75EAE3;
 }
-.start-button #stop{
+.start-button #stopBtn{
     background-color: rgb(255, 80, 80);
 }
+.hidden {
+    display: none;
+  }
 .beat-buttons{
     display: flex;
     align-items: center;
@@ -65,6 +68,30 @@ main{
     background-color: #F0DB6D;
 }
 #btn4{
+    background-color: #EA758A;
+}
+#btn1:active {
+    background:#019774;
+}
+#btn1:active, #button.lit{
+    background-color: #6DF0D1;
+}
+#btn2:active {
+    background:#003fb4;
+}
+#btn2:active, #button.lit{
+    background-color: #6D9AF0;
+}
+#btn3:active {
+    background:#ac8f00;
+}
+#btn3:active, #button.lit{
+    background-color: #F0DB6D;
+}
+#btn4:active {
+    background: #ca0227;
+}
+#btn4:active, #button.lit{
     background-color: #EA758A;
 }
 #author{
