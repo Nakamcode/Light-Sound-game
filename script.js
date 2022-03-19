@@ -71,10 +71,10 @@ const freqMap = {
   o.start(0)
 
   function lightButton(btn){
-    document.getElementById("btn"+btn).classList.add("lit")
+    document.getElementById("button"+btn).classList.add("lit")
   }
   function clearButton(btn){
-    document.getElementById("btn"+btn).classList.remove("lit")
+    document.getElementById("button"+btn).classList.remove("lit")
   }
 
   function playSingleClue(btn){

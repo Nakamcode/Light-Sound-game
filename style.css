@@ -58,42 +58,29 @@ main{
     border: 1px solid rgba(51, 51, 51, 0.479);
     cursor: pointer;
 }
-#btn1{
+#button1{
     background-color: #6DF0D1;
 }
-#btn2{
+#button2{
     background-color: #6D9AF0;
 }
-#btn3{
+#button3{
     background-color: #F0DB6D;
 }
-#btn4{
+#button4{
     background-color: #EA758A;
 }
-#btn1:active {
-    background-color:#019774;
+#button1:active, #button1.lit{
+    background-color: #005844;
 }
-#btn2:active {
-    background-color:#003fb4;
+#button2:active, #button2.lit{
+    background-color: #00308a;
 }
-#btn3:active {
-    background-color:#ac8f00;
+#button3:active, #button3.lit{
+    background-color: #a38800;
 }
-#btn4:active {
-    background-color: #ca0227;
-}
-
-#btn1:active, #btn1.lit{
-    background-color: #6DF0D1;
-}
-#btn2:active, #btn2.lit{
-    background-color: #6D9AF0;
-}
-#btn3:active, #btn3.lit{
-    background-color: #F0DB6D;
-}
-#btn4:active, #btn4.lit{
-    background-color: #EA758A;
+#button4:active, #button4.lit{
+    background-color: #d10f33;
 }
 #author{
     position: absolute;
