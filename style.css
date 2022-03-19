@@ -71,27 +71,28 @@ main{
     background-color: #EA758A;
 }
 #btn1:active {
-    background:#019774;
-}
-#btn1:active, #button.lit{
-    background-color: #6DF0D1;
+    background-color:#019774;
 }
 #btn2:active {
-    background:#003fb4;
-}
-#btn2:active, #button.lit{
-    background-color: #6D9AF0;
+    background-color:#003fb4;
 }
 #btn3:active {
-    background:#ac8f00;
-}
-#btn3:active, #button.lit{
-    background-color: #F0DB6D;
+    background-color:#ac8f00;
 }
 #btn4:active {
-    background: #ca0227;
+    background-color: #ca0227;
 }
-#btn4:active, #button.lit{
+
+#btn1:active, #btn1.lit{
+    background-color: #6DF0D1;
+}
+#btn2:active, #btn2.lit{
+    background-color: #6D9AF0;
+}
+#btn3:active, #btn3.lit{
+    background-color: #F0DB6D;
+}
+#btn4:active, #btn4.lit{
     background-color: #EA758A;
 }
 #author{
