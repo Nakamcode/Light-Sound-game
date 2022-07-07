@@ -87,3 +87,15 @@ main{
     bottom: 5%;
     right: 10%;
 }
+
+/* media queries start here */
+
+/* mobile media query start here */
+
+@media only screen and (max-width: 600px){
+    
+}
+
+/* mobile media query end here */
+
+/* media queries end here */
