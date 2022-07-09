@@ -45,12 +45,14 @@ main{
 .beat-buttons{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 .beat-button{
-    width: 15.7em;
-    height: 16.3em;
-    margin: 0.31em;
+    /* width: 15.7em; */
+    width: 14em;
+    height: 14em;
     box-shadow: 0.125em 0.125em 0.125em rgba(61, 59, 59, 0.253);
     border-radius: 0.75em;
     border: 0.063em solid rgba(51, 51, 51, 0.479);
@@ -94,16 +96,9 @@ main{
     body{
         width: 100%;
     }
-    main{
-        width: 100%;
-    }
-    .beat-buttons{
-        display: flex;
-        /* flex-direction: column; */
-    }
     .beat-button{
-        width: 20%;
-        height: 10em;
+        width: 8em;
+        height: 8em;
     }
 }
 
