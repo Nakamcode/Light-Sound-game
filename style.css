@@ -23,12 +23,6 @@ main{
     height: 100vh;
     padding-top: 4.7em;
 }
-.margin-left{
-    margin-left: 8.1em;
-}
-.instruction h1{
-    margin: 0.63em 0;
-}
 .start-button input{
     box-shadow: 0.13em 0.13em 0.063em rgba(61, 59, 59, 0.397);
     border: none;
