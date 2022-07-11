@@ -10,22 +10,22 @@
 </head>
 <body>
     <main>
-        <div class="container">
-            <div class="instruction">
-                <h1>Light and Sound Memory game</h1>
-                <p>Welcome to the game, repeat back the pattern by pressing the buttons</p>
+            <div class="container">
+                <div class="instruction">
+                    <h1>Light and Sound Memory game</h1>
+                    <p>Welcome to the game, repeat back the pattern by pressing the buttons</p>
+                </div>
+                <div class="start-button">
+                    <input type="submit" value="Start" id="startBtn" onclick="startGame()">
+                    <input type="submit" value="Stop"  id="stopBtn" class="hidden" onclick="stopGame()">
+                </div>
+                <div class="beat-buttons">
+                    <div class="beat-button" id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></div>
+                    <div class="beat-button" id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></div>
+                    <div class="beat-button" id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></div>
+                    <div class="beat-button" id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></div>
+                </div>
             </div>
-            <div class="start-button">
-                <input type="submit" value="Start" id="startBtn" onclick="startGame()">
-                <input type="submit" value="Stop"  id="stopBtn" class="hidden" onclick="stopGame()">
-            </div>
-            <div class="beat-buttons">
-                <div class="beat-button" id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></div>
-                <div class="beat-button" id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></div>
-                <div class="beat-button" id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></div>
-                <div class="beat-button" id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></div>
-            </div>
-        </div>
         <p id="author">Design with ❤ by <a href="https://github.com/Nakamcode" target="_blank">Nakam</a></p>
     </main>
 </body>
